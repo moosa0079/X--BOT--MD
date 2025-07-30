@@ -40,7 +40,7 @@ Sparky({
                 timeZone: "Asia/Kolkata"
             }).split(",");
             let menu = `╭━━━〔${config.BOT_INFO.split(";")[0].toLowerCase()}〕━━>
-┃╭━━━━━━━━━━━━━━◉
+┃╭━━━━━━━━━━━━━━>
 ┃┃•  owner : ${config.BOT_INFO.split(";")[1].toLowerCase()}
 ┃┃•  mode : ${config.WORK_TYPE.toLowerCase()}
 ┃┃•  prefix : ${m.prefix}
@@ -48,7 +48,7 @@ Sparky({
 ┃┃•  time : ${time}
 ┃┃•  uptime : ${await m.uptime()}
 ┃┃•  plugins : ${commands.length}
-┃╰━━━━━━━━━━━━━◉
+┃╰━━━━━━━━━━━━━>
 ╰━━━━━━━━━━━━━>\n ${readMore}\n\n`;
             
                         let cmnd = [];
