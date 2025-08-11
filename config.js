@@ -79,6 +79,6 @@ module.exports = {
 	STATUS_REPLY: toBool(process.env.STATUS_REPLY || "false"),
 	STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "Nice Status Brother 🦫✨",
 	STATUS_REACTION: toBool(process.env.STATUS_REACTION || "true"),
-	STATUS_REACTION_EMOJI: process.env.STATUS_REACTION_EMOJI || "🍉,🍓,🎀,💀,💗,📍,🔪,🛒,☠️,🐍,👍🏻",
+	STATUS_REACTION_EMOJI: process.env.STATUS_REACTION_EMOJI || "🍉,🍓,",
 	WARN_COUNT: process.env.WARN_COUNT || "3"
 };
